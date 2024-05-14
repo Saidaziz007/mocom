@@ -1,0 +1,51 @@
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+.nav-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.nav-left a,
+.nav-right a {
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.nav-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-input input {
+  padding: 10px;
+  background-color: rgba(237, 242, 244, 1);
+  border-radius: 15px;
+  border: none;
+}
+
+.nav-input svg {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+}

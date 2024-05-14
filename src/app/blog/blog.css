@@ -1,0 +1,21 @@
+.blog {
+  padding-top: 100px;
+}
+
+.blog-top-h1 {
+  padding-bottom: 30px;
+}
+
+.blog-card {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: rgba(237, 242, 244, 1);
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.blog-card p {
+  padding-top: 15px;
+}

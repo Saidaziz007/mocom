@@ -1,0 +1,9 @@
+.aboutus {
+  padding: 100px 0;
+}
+
+.aboutus-all {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

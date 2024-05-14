@@ -1,0 +1,43 @@
+.products {
+  padding-top: 100px;
+}
+
+.products-top h1 {
+  padding-top: 30px;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.products-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.products-card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.products-img {
+  width: 100%;
+  height: 80%;
+  background-color: rgba(237, 242, 244, 1);
+  padding: 15px;
+  overflow: hidden;
+}
+
+.products-img img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.products-img img:hover {
+  transform: scale(1.1);
+}
+
+.products-info p {
+  font-size: 18px;
+  padding-top: 5px;
+}
